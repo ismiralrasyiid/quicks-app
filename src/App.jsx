@@ -1,11 +1,9 @@
 import React from 'react';
+import MainContainer from './components/MainContainer';
 
 function App() {
   return (
-    <div>
-      <h1>Quicks app</h1>
-      <p>Ini Quicks</p>
-    </div>
+    <MainContainer />
   );
 }
 
