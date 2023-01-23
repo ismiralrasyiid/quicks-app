@@ -1,5 +1,5 @@
 import React from 'react';
-import searchIcon from '../assets/search_24px.svg';
+import searchIcon from '../assets/search.svg';
 import MainSearchBarStyle from './styles/MainSearchBarStyle';
 
 function MainSearchBar() {

@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
   }
 
-  input {
+  input, button {
     font-size: 16px;
     border: none;
     outline: none;
