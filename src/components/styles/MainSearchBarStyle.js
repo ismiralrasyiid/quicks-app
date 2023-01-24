@@ -7,7 +7,7 @@ const MainSearchBarStyle = styled.form`
     display: flex;
     width: 100%;
     height: 58px;
-    background-color: var(--primary-dark-light);
+    background-color: var(--primary-dark);
     align-items: center;
     cursor: pointer;
 
@@ -22,7 +22,7 @@ const MainSearchBarStyle = styled.form`
       width: calc(100% - 95px);
       padding: 7px;
       color: var(--primary-light);
-      background-color: var(--primary-dark-light);
+      background-color: var(--primary-dark);
       cursor: pointer;
 
       &:focus {

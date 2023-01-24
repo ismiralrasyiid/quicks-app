@@ -6,6 +6,9 @@ const GlobalStyle = createGlobalStyle`
     --primary-dark: #4F4F4F;
     --primary-dark-light: #828282;
     --primary-light: #E0E0E0;
+    --secondary-light: #F2F2F2;
+    --orange-indicator: #F8B76B;
+    --violet-indicator: #8785FF;
   }
 
   * {
@@ -17,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-size: 16px;
-    background-color: var(--primary-dark);
+    background-color: #333333;
   }
 
   html {
