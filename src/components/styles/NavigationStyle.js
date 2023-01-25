@@ -17,7 +17,7 @@ const NavigationStyle = styled.div`
     align-items: center;
     gap: 26px;
     margin-right: -60px;
-    padding: 27px 60px;
+    padding: 31px 60px;
     overflow: hidden;
   }
 
@@ -27,6 +27,15 @@ const NavigationStyle = styled.div`
       &:before {
         margin-top: 24px;
         transition: margin ease-in .2s;
+      }
+    }
+  }
+
+  > .isActive {
+    padding: 27px 60px;
+    > button {
+      &:before {
+        content: '';
       }
     }
   }
