@@ -35,6 +35,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     border: none;
     outline: none;
+    cursor: pointer;
   }
 `;
 

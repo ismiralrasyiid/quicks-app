@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import IconButton from './IconButton';
 import Inbox from './Inbox';
 import NavigationStyle from './styles/NavigationStyle';
+import Task from './Task';
 
 function Navigation() {
   const [isClosed, setIsClosed] = useState(true);
@@ -44,6 +45,7 @@ function Navigation() {
           )}
       </NavigationStyle>
       {isActive === 'inbox' ? <Inbox /> : null}
+      {isActive === 'task' ? <Task /> : null}
     </>
   );
 }
